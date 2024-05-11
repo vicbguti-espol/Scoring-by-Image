@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 import io
-import requests
 import google.generativeai as genai
 from extraer_diccionario import extraer_diccionario
 

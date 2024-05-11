@@ -1,0 +1,67 @@
+{
+    "Informaci\u00f3n personal": {
+        "Nombre completo": "AXCEL JEREMY ESPINOZA BARRERA",
+        "Profesi\u00f3n": "Estudiante de Ingenier\u00eda Mecatr\u00f3nica",
+        "Tel\u00e9fono": "+593 963 323 146",
+        "Email": "axcelespinzoa17@hotmail.com",
+        "LinkedIn": "Linkedin"
+    },
+    "Aptitudes y habilidades": [
+        "Desarrollo de software",
+        "An\u00e1lisis de datos",
+        "Aprendizaje autom\u00e1tico",
+        "Resoluci\u00f3n de problemas",
+        "Trabajo en equipo multidisciplinario",
+        "Optimizaci\u00f3n de procesos",
+        "Desarrollo de soluciones tecnol\u00f3gicas avanzadas",
+        "Proactivo",
+        "Dedicado"
+    ],
+    "Idiomas": [
+        {}
+    ],
+    "Software": [
+        "C++",
+        "Autodesk Inventor",
+        "Python",
+        "ClojureScript",
+        "ReactJS",
+        "PostgreSQL",
+        "AWS",
+        "CircleCI"
+    ],
+    "Formaci\u00f3n": [
+        {
+            "T\u00edtulo": "Ingeniero en Mecatr\u00f3nica",
+            "Instituci\u00f3n": "Escuela Superior Polit\u00e9cnica del Litoral",
+            "Fecha de graduaci\u00f3n": "2019 - 2024"
+        }
+    ],
+    "Experiencia laboral": [
+        {
+            "Empresa": "Escuela Superior Polit\u00e9cnica del Litoral",
+            "Puesto": "Asistente de Investigaci\u00f3n",
+            "Fecha de inicio": "Sep. 2022",
+            "Fecha de fin": "Presente",
+            "Responsabilidades y logros": [
+                "Desarrollador de Software y Hardware / Sep. 2022 \u2013 Feb. 2023",
+                "Cre\u00e9 librer\u00edas en C++ para el microcontrolador ESP32 TTGO-T8, mejorando la adquisici\u00f3n de datos de sensores de forma remota.",
+                "Dise\u00f1ador Mec\u00e1nico / Abr. 2022 \u2013 Jun. 2023",
+                "Contribu\u00ed en el dise\u00f1o del robot TurtleBoot4 con Autodesk Inventor, trabajando en equipo para desarrollar modelos 3D precisos y funcionales.",
+                "Analista de Datos / Jul. 2023 \u2013 Presente",
+                "Analic\u00e9 datos hist\u00f3ricos para evaluar demanda de carreras y rendimiento acad\u00e9mico, implementando modelos estad\u00edsticos y scripts en Python para la distribuci\u00f3n de plazas acad\u00e9micas."
+            ]
+        },
+        {
+            "Empresa": "D\u00e1til",
+            "Puesto": "Semi-Senior Software Engineer",
+            "Fecha de inicio": "Feb. 2023",
+            "Fecha de fin": "Oct. 2023",
+            "Responsabilidades y logros": [
+                "Dise\u00f1\u00e9 interfaces de usuario innovadoras y din\u00e1micas con ClojureScript y ReactJS, mejorando significativamente la experiencia del usuario.",
+                "Desarroll\u00e9 y mantuve bases de datos en PostgreSQL, garantizando alta seguridad y rendimiento.",
+                "Implement\u00e9 soluciones en la nube con AWS y automatizaci\u00f3n de CI/CD con CircleCI, aumentando la eficiencia operativa."
+            ]
+        }
+    ]
+}
