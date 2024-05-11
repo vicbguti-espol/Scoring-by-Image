@@ -26,7 +26,6 @@ Unicamente quiero el diccionario, sin intentar asignarlo a una variable o algo p
 """
 
 def mostrar_cv():
-    st.title('Cargador y Analizador de CVs en PDF')
     st.markdown("""
     <style>
         .big-font {

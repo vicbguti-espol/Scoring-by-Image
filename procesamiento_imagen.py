@@ -55,7 +55,6 @@ PROMPT_OFERTA_LABORAL = """
 
 # Función para procesar la imagen
 def procesar_imagen():
-    st.header("Procesamiento de Imagen por Partes")
 
     uploaded_image = st.file_uploader("Sube una imagen", type=["jpg", "png", "jpeg"])
 
