@@ -34,16 +34,16 @@ cd cv_match
 ```
 
 ### Instalar Dependencias
-Instala todas las dependencias necesarias ejecutando:
 
+Instala todas las dependencias necesarias ejecutando:
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Ejecutar la Aplicación
-Una vez instaladas las dependencias, puedes iniciar la aplicación con:
 
+Una vez instaladas las dependencias, puedes iniciar la aplicación con:
 
 ```bash
 streamlit run app.py

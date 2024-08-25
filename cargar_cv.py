@@ -5,6 +5,8 @@ import fitz
 import os
 import json 
 
+genai.configure(api_key="AIzaSyBZM67A9UL3YtYBOvByrt3iQ9_QWPIYrYE")
+
 PROMPT_CV = """
 Eres un experto en extracción de información de imágenes. 
 Tu tarea es analizar las imágenes del CV que te proporciono y extraer la siguiente información, organizándola en un diccionario de Python:
@@ -67,14 +69,15 @@ def process_cv(uploaded_file):
 def edit_cv_info(cv_info):
     st.markdown('<p class="info-text">Edita la información extraída del CV:</p>', unsafe_allow_html=True)
     edited_info = {}
-    for key, value in cv_info.items():
-        st.subheader(f"{key}:")
-        if isinstance(value, dict):
-            edited_info[key] = edit_nested_dict(value)
-        elif isinstance(value, list):
-            edited_info[key] = edit_list(value, key)
-        else:
-            edited_info[key] = st.text_input(key, str(value) if value else '')
+    if cv_info != None: 
+        for key, value in cv_info.items():
+            st.subheader(f"{key}:")
+            if isinstance(value, dict):
+                edited_info[key] = edit_nested_dict(value)
+            elif isinstance(value, list):
+                edited_info[key] = edit_list(value, key)
+            else:
+                edited_info[key] = st.text_input(key, str(value) if value else '')
     return edited_info
 
 def edit_nested_dict(nested_dict):
@@ -106,8 +109,8 @@ def save_edited_cv(data, file_path):
 def analyze_image_with_ai(image_path):
     sample_file = genai.upload_file(path=image_path, display_name="Sample CV")
     file = genai.get_file(name=sample_file.name)
-    model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
-    response = model.generate_content([PROMPT_CV, file])
+    model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
+    response = model.generate_content(["hola"])
     return extraer_diccionario(response.text)
 
 def pdf_to_images(pdf_path, base_output_folder):
